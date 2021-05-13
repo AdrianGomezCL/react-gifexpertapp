@@ -6,14 +6,7 @@ import { GifGrid } from './components/GifGrid';
 export const GifExpertApp = () => {
 
     // Definicion del arreglo Categorias, con un estado para
-    const [categories,setCategories] = useState(['Game of Thrones']);
-
-    // Evento onclic de boton Agregar
-    // const handleAdd = () => {
-
-    //     // Agrega adelante del arreglo categories el valor
-    //     setCategories( ['Hunter X hunter', ...categories])
-    // }
+    const [categories, setCategories] = useState(['Game of Thrones']);
 
     return (
         <>

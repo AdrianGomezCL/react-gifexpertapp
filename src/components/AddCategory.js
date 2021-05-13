@@ -30,6 +30,7 @@ export const AddCategory = ( { setCategories } ) => {
     )
 }
 
+// Se indica que AddCategory debe ser invocado siempre con un setCategories
 AddCategory.propTypes = {
     setCategories: PropTypes.func.isRequired
 }
